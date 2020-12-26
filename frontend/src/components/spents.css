@@ -1,0 +1,81 @@
+.gastos {
+    margin: 20px 0;
+}
+
+.item-gastos {
+    position: relative;
+    background: #eff0f1;
+    border: 0.5px solid #d6d3d3; 
+    margin: 5px 0; 
+}
+
+.item-gastos ul {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+.item-gastos li {
+    font-size: 18px;
+    color: #616161;
+}
+
+.item-gastos li:first-child {
+    font-size: 26px;
+}
+
+.item-gastos .quanto {
+    margin: 10px auto;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #535353;
+}
+
+.item-gastos .como {
+    margin: 10px auto;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0583F2;
+}
+
+.item-gastos .quando {
+    margin: 10px auto;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    font-size: 14px;
+    color: #9e9d9d;
+}
+
+.somas {
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    border: 0.5px solid #d6d3d3;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.somas .total {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(80, 80, 80);
+}
+
+/* .somas ul {
+    list-style: none;
+    margin: 0;
+    
+    font-size: 15px;
+}
+
+.somas li {
+    padding: 5px 0px;
+} */

@@ -1,0 +1,22 @@
+.ButtonCreate {
+    background: #3747A6;
+    position: fixed;
+
+    bottom: 1em;
+    right: 1em;
+
+    padding: 1em;
+    border-radius: 15px;
+
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+
+    transition: .1s ease-out;
+}
+
+.ButtonCreate svg {
+    color: white;
+}
+
+.ButtonCreate:hover {
+    background-color: #6777D7;
+}

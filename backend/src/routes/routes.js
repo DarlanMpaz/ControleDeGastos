@@ -1,16 +1,18 @@
 const connection = require('../database/connection')
 const express = require('express')
 const router = express.Router()
-const SpentController = require('../controllers/SpentController')
+const DespesaController = require('../controllers/DespesaController')
 
-router.post('/novoGasto', SpentController.newSpent)
+router.post('/nova-despesa', DespesaController.criarDespesa)
 
-router.get('/gastos', SpentController.showSpent)
+router.get('/despesas', DespesaController.listarDespesas)
 
-router.get('/gasto/:id', SpentController.showOneSpent)
+router.get('/despesa/:id', DespesaController.listarUmaDespesa)
 
-router.put('/atualizar/gasto/:id', SpentController.updateSpent)
+router.put('/editar/despesa/:id', DespesaController.editarDespesa)
 
-router.delete('/delete/gasto/:id', SpentController.removeSpent)
+router.delete('/remover/despesa/:id', DespesaController.removerDespesa)
+
+router.get('/despesas-mes', DespesaController.listarDespesaPorMes)
 
 module.exports = router

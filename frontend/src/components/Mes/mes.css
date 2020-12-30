@@ -1,0 +1,27 @@
+.Mes {
+    background: #EDEDED;
+    border-radius: 15px;
+    padding: 16px 20px;
+    text-align: center;
+    color: #9295A3;
+    margin: 10px;
+
+    transition: .1s ease-out;
+}
+
+.Mes p:last-child {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #5f6169;
+}
+
+.Mes:hover {
+    background: #3747A6;
+    color: white;
+
+    box-shadow: 0px 2px 10px #00000040;
+}
+
+.Mes:hover p {
+    color: white;
+}

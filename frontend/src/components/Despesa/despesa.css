@@ -17,6 +17,7 @@
     cursor: pointer;
 
     transition: ease .2s;
+    transition-delay: .2s;
 }
 
 .Despesa .despesa-descricao {
@@ -54,7 +55,8 @@
 }
 
 .Despesa:hover {
-    grid-template-columns: 150px auto;
+    grid-template-columns: 100px auto;
+    transform: translateX(-30px);;
     width: 80%;
 }
 

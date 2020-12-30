@@ -1,0 +1,14 @@
+.Meses {
+    display: flex;
+    overflow-x: scroll; 
+    width:100%;
+    margin: 3em 0;
+
+    transition: ease-out .1s;
+
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
